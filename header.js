@@ -3,10 +3,10 @@ import { View, Text, StyleSheet } from 'react-native';
 
 class Header extends Component{
     render(){
-        const { header, headerText } = styles;
+        const { header, headerText } = styles; // easier use for style
         return(
-            <View style={styles.header}>
-              <Text style={styles.headerText}>Simple Calculator</Text>
+            <View style={header}>
+              <Text style={headerText}>Simple Calculator</Text>
             </View>
         )
     }
