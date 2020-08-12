@@ -11,32 +11,32 @@ export default class App extends Component{
     }
   }
   sum(){
-    const number1 = parseInt(this.state.input1);
-    const number2 = parseInt(this.state.input2);
+    const number1 = parseFloat(this.state.input1);
+    const number2 = parseFloat(this.state.input2);
     let sum = number1 + number2;
     this.setState({
       result: sum
     })
   }
   sub(){
-    const number1 = parseInt(this.state.input1);
-    const number2 = parseInt(this.state.input2);
+    const number1 = parseFloat(this.state.input1);
+    const number2 = parseFloat(this.state.input2);
     let sum = number1 - number2;
     this.setState({
       result: sum
     })
   }
   multiplaction(){
-    const number1 = parseInt(this.state.input1);
-    const number2 = parseInt(this.state.input2);
+    const number1 = parseFloat(this.state.input1);
+    const number2 = parseFloat(this.state.input2);
     let sum = number1 * number2;
     this.setState({
       result: sum
     })
   }
   division(){
-    const number1 = parseInt(this.state.input1);
-    const number2 = parseInt(this.state.input2);
+    const number1 = parseFloat(this.state.input1);
+    const number2 = parseFloat(this.state.input2);
     let sum = number1 / number2;
     this.setState({
       result: sum
